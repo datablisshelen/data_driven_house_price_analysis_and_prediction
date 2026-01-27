@@ -294,3 +294,87 @@ Each task has **one clear owner**. Others may review but not rewrite. This prote
 - Plagiarism concerns  
 - Git history ambiguity  
 - Assessment gaps  
+
+## Purpose
+
+The purpose of this project is to develop a **data-driven analytics application** that helps stakeholders understand and predict residential house prices. By combining statistical analysis, machine learning, and interactive visualisation, the project aims to transform historical housing data into **clear, actionable insights**.
+
+The application is designed to support both **technical and non-technical users** by providing:
+- Transparent analysis of the factors influencing house prices  
+- Explainable predictive models  
+- An intuitive Streamlit dashboard for exploration and decision support  
+
+---
+
+## Business Case
+
+Accurate house price estimation is critical for stakeholders operating in the residential property market. Traditional valuation methods often rely on manual appraisal, market intuition, or limited comparable sales, which can be subjective and inconsistent.
+
+This project addresses the business need for a **reliable, scalable, and explainable pricing support tool** by:
+- Identifying the most influential property features affecting sale prices  
+- Highlighting trends, patterns, and anomalies in historical housing data  
+- Providing predictive price estimates based on comparable property characteristics  
+
+By adopting a data analytics and AI-driven approach, the project demonstrates how organisations can improve pricing accuracy, reduce risk, and support evidence-based decision-making in the housing market.
+
+---
+
+## Target Audience
+
+The primary target audience for this project includes:
+
+- **Property analysts and valuation professionals** seeking data-supported insights to complement traditional appraisal methods  
+- **Real estate professionals and decision-makers** who require interpretable insights into pricing drivers and market trends  
+
+The secondary target audience includes:
+
+- **Non-technical stakeholders** interested in understanding housing market dynamics through clear visualisations and summaries  
+- **Students and data analysts** exploring applied data analytics and machine learning in a real-world context  
+
+---
+
+## Project Hypotheses
+
+The following hypotheses guide the analytical approach of this project and are evaluated using exploratory data analysis and predictive modelling:
+
+1. **Property size and quality features** (e.g. living area, number of rooms, overall quality) have a significant positive impact on house sale prices.  
+2. **Location-related features** contribute substantially to price variation across properties.  
+3. **Newer properties** or properties with recent renovations tend to achieve higher sale prices than older properties.  
+4. **Machine learning models** can predict house prices with greater accuracy than simple baseline statistical methods when trained on cleaned and engineered features.
+
+Each hypothesis is tested and validated through data exploration, statistical analysis, and model evaluation within the Jupyter notebooks and reflected in the dashboard insights.
+
+---
+
+## Project Plan (LO10)
+
+This project follows a structured, time-bound development plan aligned with best practices in data analytics and the learning outcomes of the Data Analytics with Artificial Intelligence Bootcamp.
+
+### Phase 1: Data Collection and Preparation
+- Source publicly available, anonymised housing data  
+- Load and inspect the dataset using Pandas  
+- Clean and preprocess data (handle missing values, outliers, and skewness)  
+- Store cleaned data in a structured project directory  
+
+### Phase 2: Exploratory Data Analysis and Statistics
+- Perform exploratory data analysis (EDA) to identify trends and relationships  
+- Apply statistical techniques to summarise and interpret key features  
+- Visualise distributions and correlations to support hypothesis testing  
+
+### Phase 3: Modelling and Evaluation
+- Build at least one predictive model using machine learning techniques  
+- Evaluate model performance using appropriate metrics  
+- Compare results with baseline approaches and discuss limitations  
+
+### Phase 4: Dashboard Development
+- Design and implement an interactive Streamlit dashboard  
+- Integrate visualisations, filters, and narrative explanations  
+- Ensure accessibility, clarity, and usability for the target audience  
+
+### Phase 5: Review, Reflection, and Future Planning
+- Validate project hypotheses based on analytical findings  
+- Reflect on challenges, limitations, and ethical considerations  
+- Outline future improvements, maintenance, and potential extensions  
+
+This structured plan ensures the project is **maintainable, extensible, and aligned with real-world analytics workflows**, clearly demonstrating Learning Outcome 10 (LO10).
+
