@@ -7,3 +7,22 @@ models/
 *.joblib
 .DS_Store
 Thumbs.db
+
+# --- Data folders ---
+# DO NOT ignore raw (team needs it)
+# data/raw/*
+
+# Ignore only interim / scratch data
+data/interim/*
+data/external/*
+
+!data/interim/.gitkeep
+!data/external/.gitkeep
+
+# Processed outputs (shared selectively)
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/*.csv
+!data/processed/*.csv.gz
+!data/processed/*.geojson
+!data/processed/*.parquet
