@@ -405,6 +405,34 @@ This project follows a structured, time-bound development plan aligned with best
 
 This structured plan ensures the project is **maintainable, extensible, and aligned with real-world analytics workflows**, clearly demonstrating Learning Outcome 10 (LO10).
 
+
+## Exploratory Data Analysis Summary 
+
+In Notebook 01, the dataset was explored using descriptive statistics and visual analysis to understand the distribution, spread, and relationships of key housing features. The analysis focused on sale price, living space, build quality, location indicators, and age-related variables. Summary statistics and distribution plots highlighted strong right-skewness in sale prices, wide variation in property size and quality, and meaningful differences linked to location and construction period. Relationship analysis showed that living area, overall quality, and neighbourhood factors are the most influential drivers of sale price, while property age contributes additional context but does not act as a standalone predictor. These findings provide a statistically grounded basis for feature selection, hypothesis testing, and predictive modelling in subsequent notebooks.
+
+At the close of EDA, the following hypotheses have been validated as true:
+1. **Property size and quality features** (e.g. living area, number of rooms, overall quality) have a significant positive impact on house sale prices.  
+2. **Location-related features** contribute substantially to price variation across properties.  
+3. **Newer properties** or properties with recent renovations tend to achieve higher sale prices than older properties.
+
+
+
+### Feature Engineering Requirements
+1. Target variable has a strong right skew. Requirement is to apply a log transformation to improve linear model performance by reducing influence of extreme high-price properties.
+2. Engineer HouseAge, RemodAge and TotalArea
+3. One-hot encode Neighbourhood with 2 to 3 categoricals
+
+
+
+## Predictive Modelling Requirements
+1. Baseline linear regression modelling to explicitly test working hypotheses and interpret coefficients 
+2. Additional Ridge Regression. Rationale for this is expected multicollinearity, where two or more features are strongly correlated with each other, not just Sale price. By applying coefficient regularisation, Ridge stabilises model estimates, reduces overfitting, and improves generalisation while retaining all informative features.
+3. Compare metrics
+4. Save processed dataset and metrics table (RMSE and R2)
+
+
+
+
 ## Credits
 - https://deevid.ai/
 - kdenlive
