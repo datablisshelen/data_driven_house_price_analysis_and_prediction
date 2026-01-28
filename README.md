@@ -26,6 +26,10 @@ A data analytics and AI project exploring residential house prices using Python,
 - [Target Audience](#target-audience)
 - [Project Hypotheses](#project-hypotheses)
 - [Project Plan (LO10)](#project-plan-lo10)
+- Output
+-   Exploratory Data Analysis
+-   Feature Engineering
+-   Predictive Modelling
 
 
 ## Client Brief
