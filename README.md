@@ -1,9 +1,14 @@
-# Data driven house price analysis and prediction
-A data analytics and AI project exploring residential house prices using Python, machine learning, and an interactive dashboard exploring house inflation.
+<h1 align="center"><strong>Data driven house price analysis and prediction</strong></h1>
 
 <p align="center">
   <img src="app/assets/images/inflation.gif" alt="House price inflation animation" width="520">
 </p>
+
+<p align="center">
+  <em>Visual metaphor for house price inflation and market dynamics</em>
+</p>
+
+A data analytics and AI project exploring residential house prices using Python, machine learning, and an interactive dashboard.
 
 ## Table of Contents
 
@@ -27,7 +32,7 @@ A data analytics and AI project exploring residential house prices using Python,
 - [Project Hypotheses](#project-hypotheses)
 - [Project Plan (LO10)](#project-plan-lo10)
 
-
+Temparary change to set up new branch
 ## Client Brief
 
 The client is a **property analytics stakeholder** operating within the residential housing market who requires a **data-driven decision-support tool** to better understand the factors influencing house prices and to improve price estimation accuracy.
