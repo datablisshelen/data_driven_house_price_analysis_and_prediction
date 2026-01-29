@@ -36,6 +36,7 @@ A data analytics and AI project exploring residential house prices using Python,
 - [Project Hypotheses](#project-hypotheses)
 - [Project Learnings & Problem Log](#project-learnings--problem-log)
 - [Project Plan (LO10)](#project-plan-lo10)
+- [Future Development](#future-development)
 
 ## Client Brief
 
@@ -426,6 +427,24 @@ This project follows a structured, time-bound development plan aligned with best
 - Outline future improvements, maintenance, and potential extensions  
 
 This structured plan ensures the project is **maintainable, extensible, and aligned with real-world analytics workflows**, clearly demonstrating Learning Outcome 10 (LO10).
+
+## Reflection & Future Development
+
+### Key Learnings
+- Early establishment of documentation structures (e.g. problem logs) improves collaboration and reduces rework.
+- Summarising EDA findings in plain language improves accessibility for mixed audiences.
+- Iterative refinement of the README clarified project scope and decision-making rationale.
+
+### Limitations
+- Model performance is constrained by the size and scope of the available dataset.
+- Predictions are sensitive to temporal market changes and feature availability.
+- Results should be interpreted as indicative trends rather than precise valuations.
+
+### Future Development
+- Incorporate additional external datasets (e.g. economic indicators, interest rates).
+- Explore more advanced models and hyperparameter tuning.
+- Extend the dashboard with scenario-based forecasting and user-driven inputs.
+
 
 ## Credits
 - https://deevid.ai/
