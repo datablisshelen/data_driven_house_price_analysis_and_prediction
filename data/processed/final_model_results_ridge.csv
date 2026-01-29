@@ -1,0 +1,2 @@
+Model,Selected_Alpha,R2_CV_mean,R2_CV_std,RMSE_log_CV_mean,RMSE_log_CV_std,Alpha_Tuning_Conclusion
+Ridge Regression,1.0,0.8742391513077598,0.014682240381735106,0.14109062029195957,0.0056766986790045834,Performance stable across tested alpha values (0.1–50)

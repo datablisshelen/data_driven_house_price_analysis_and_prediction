@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="app/assets/images/team_framework_logo_alpha.png" alt="Team Framework logo" width="520">
+</p>
+
 <h1 align="center"><strong>Data driven house price analysis and prediction</strong></h1>
 
 <p align="center">
@@ -444,5 +448,6 @@ This structured plan ensures the project is **maintainable, extensible, and alig
 
 ## Credits
 - https://deevid.ai/
+-
 - kdenlive
 
