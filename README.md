@@ -427,6 +427,12 @@ This project follows a structured, time-bound development plan aligned with best
 - Outline future improvements, maintenance, and potential extensions  
 
 This structured plan ensures the project is **maintainable, extensible, and aligned with real-world analytics workflows**, clearly demonstrating Learning Outcome 10 (LO10).
+### Streamlit App – Summary
+
+The Streamlit application provides an interactive exploratory interface to analyse the drivers of house sale prices, with dynamic filtering by build year, living area, overall quality, and neighbourhood.
+Visualisations demonstrate that property size and build quality are the strongest drivers of sale price, showing clear positive relationships between living area, overall quality, and price levels.
+Correlation-based driver analysis highlights that size-related features dominate price variation, while location and age-related variables contribute additional but secondary explanatory power.
+An AI-assisted insight summary is included to support data storytelling, clearly labelled as correlation-based and intended to complement, not replace, statistical model interpretation.
 
 ## Reflection & Future Development
 
